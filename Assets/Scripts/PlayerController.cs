@@ -37,31 +37,36 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         Vector3 moveDirection = new Vector3(horizontal, 0, vertical).normalized;
 
-        // Actualizamos la velocidad de movimiento y la dirección
+        // Variable para la dirección del movimiento
         float speed = moveSpeed * (Input.GetKey(KeyCode.LeftShift) ? sprintMultiplier : 1f);
-        float movementDirection = 0f;  // Inicializamos la dirección del movimiento
+        float movementDirection = 0f;  // Dirección del movimiento para el Animator
 
-        // Aplicar dirección de movimiento basada en la cámara
+        // Ajustamos el movimiento con respecto a la cámara
         if (moveDirection.magnitude >= 0.1f)
         {
             // Convertimos la dirección de movimiento en función de la cámara
             Quaternion rotation = Quaternion.Euler(0, cameraYRotation, 0);
             Vector3 moveDir = rotation * moveDirection;
 
-            // Movimiento hacia adelante o atrás
-            if (vertical > 0) movementDirection = 1f;  // Adelante
-            else if (vertical < 0) movementDirection = -1f;  // Atrás
-            // Movimiento lateral
-            else if (horizontal > 0) movementDirection = 0.5f; // Derecha
-            else if (horizontal < 0) movementDirection = -0.5f; // Izquierda
+            // Determinar la dirección del movimiento
+            if (vertical > 0 && horizontal == 0) movementDirection = 1f;    // Adelante
+            else if (vertical < 0 && horizontal == 0) movementDirection = -1f; // Atrás
+            else if (horizontal > 0 && vertical == 0) movementDirection = 0.5f;  // Derecha
+            else if (horizontal < 0 && vertical == 0) movementDirection = -0.5f; // Izquierda
+            else if (vertical > 0 && horizontal > 0) movementDirection = 0.5f; // Adelante y derecha
+            else if (vertical > 0 && horizontal < 0) movementDirection = -0.5f; // Adelante y izquierda
+            else if (vertical < 0 && horizontal > 0) movementDirection = 0.5f; // Atrás y derecha
+            else if (vertical < 0 && horizontal < 0) movementDirection = -0.5f; // Atrás y izquierda
 
-            // Aplicar movimiento
+            // Mover el personaje
             controller.Move(moveDir * speed * Time.deltaTime);
 
-            // Actualizamos el parámetro en el Animator
+            // Actualizar el parámetro MovementDirection en el Animator
             animator.SetFloat("Speed", speed);
             animator.SetFloat("MovementDirection", movementDirection);
-        } else {
+        } 
+        else
+        {
             animator.SetFloat("Speed", 0);
         }
 
@@ -75,6 +80,7 @@ public class PlayerController : MonoBehaviour
         velocity.y -= gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
+
 
 
 }
