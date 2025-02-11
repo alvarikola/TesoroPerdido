@@ -39,35 +39,28 @@ public class PlayerController : MonoBehaviour
 
         // Variable para la dirección del movimiento
         float speed = moveSpeed * (Input.GetKey(KeyCode.LeftShift) ? sprintMultiplier : 1f);
-        float movementDirection = 0f;  // Dirección del movimiento para el Animator
 
         // Ajustamos el movimiento con respecto a la cámara
+         // Ajustamos el movimiento con respecto a la cámara
         if (moveDirection.magnitude >= 0.1f)
         {
             // Convertimos la dirección de movimiento en función de la cámara
             Quaternion rotation = Quaternion.Euler(0, cameraYRotation, 0);
             Vector3 moveDir = rotation * moveDirection;
 
-            // Determinar la dirección del movimiento
-            if (vertical > 0 && horizontal == 0) movementDirection = 1f;    // Adelante
-            else if (vertical < 0 && horizontal == 0) movementDirection = -1f; // Atrás
-            else if (horizontal > 0 && vertical == 0) movementDirection = 0.5f;  // Derecha
-            else if (horizontal < 0 && vertical == 0) movementDirection = -0.5f; // Izquierda
-            else if (vertical > 0 && horizontal > 0) movementDirection = 0.5f; // Adelante y derecha
-            else if (vertical > 0 && horizontal < 0) movementDirection = -0.5f; // Adelante y izquierda
-            else if (vertical < 0 && horizontal > 0) movementDirection = 0.5f; // Atrás y derecha
-            else if (vertical < 0 && horizontal < 0) movementDirection = -0.5f; // Atrás y izquierda
-
             // Mover el personaje
             controller.Move(moveDir * speed * Time.deltaTime);
 
-            // Actualizar el parámetro MovementDirection en el Animator
+            // Actualizar el Animator con la dirección en el sistema local
             animator.SetFloat("Speed", speed);
-            animator.SetFloat("MovementDirection", movementDirection);
+            animator.SetFloat("HorizontalDirection", (float)horizontal); 
+            animator.SetFloat("VerticalDirection", (float)vertical); 
         } 
         else
         {
             animator.SetFloat("Speed", 0);
+            animator.SetFloat("HorizontalDirection", 0);
+            animator.SetFloat("VerticalDirection", 0);
         }
 
         // Aplicar gravedad y salto
