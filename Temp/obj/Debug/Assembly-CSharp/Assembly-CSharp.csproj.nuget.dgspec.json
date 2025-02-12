@@ -26,7 +26,128 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj": {
+                "projectPath": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj"
+              },
+              "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponentsEditor.csproj": {
+                "projectPath": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponentsEditor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj",
+        "projectName": "NavMeshComponents",
+        "projectPath": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj",
+        "packagesPath": "/home/alumno/.nuget/packages/",
+        "outputPath": "/home/alumno/Documentos/Unity/TesoroPerdido/Temp/obj/Debug/NavMeshComponents/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alumno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponentsEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponentsEditor.csproj",
+        "projectName": "NavMeshComponentsEditor",
+        "projectPath": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponentsEditor.csproj",
+        "packagesPath": "/home/alumno/.nuget/packages/",
+        "outputPath": "/home/alumno/Documentos/Unity/TesoroPerdido/Temp/obj/Debug/NavMeshComponentsEditor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alumno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj": {
+                "projectPath": "/home/alumno/Documentos/Unity/TesoroPerdido/NavMeshComponents.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

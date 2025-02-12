@@ -59,16 +59,22 @@
     <UnityVersion>2022.3.55f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/home/alumno/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/home/alumno/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/home/alumno/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/home/alumno/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/WaterfallAudio.cs" />
     <Compile Include="Assets/Scripts/ThirdCamera.cs" />
+    <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/FadeInOut.cs" />
+    <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BlendShapeTrigger.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs" />
+    <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/DinosaurAI.cs" />
+    <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BoneheadSoundEffects.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1035,12 +1041,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
@@ -1093,6 +1099,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NavMeshComponents.csproj" />
+    <ProjectReference Include="NavMeshComponentsEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
