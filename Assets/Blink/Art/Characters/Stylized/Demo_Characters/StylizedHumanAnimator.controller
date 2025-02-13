@@ -428,7 +428,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: VerticalDirection
     m_EventTreshold: 0.1
-  - m_ConditionMode: 3
+  - m_ConditionMode: 4
     m_ConditionEvent: HorizontalDirection
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}

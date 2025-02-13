@@ -43,10 +43,16 @@ public class DinosaurAI : MonoBehaviour
         Vector3 randomDirection = Random.insideUnitSphere * roamRadius;
         randomDirection += transform.position;
         NavMeshHit hit;
+
         if (NavMesh.SamplePosition(randomDirection, out hit, roamRadius, NavMesh.AllAreas))
         {
             destination = hit.position;
             agent.SetDestination(destination);
+            Debug.Log("Nuevo destino: " + destination);
+        }
+        else
+        {
+            Debug.Log("No se encontró una posición válida en el NavMesh.");
         }
     }
 
@@ -56,6 +62,7 @@ public class DinosaurAI : MonoBehaviour
         if (agent.velocity.magnitude > 0.1f)
         {
             animator.SetFloat("speed", 1f);  // Ajusta el valor según la velocidad deseada
+            Debug.Log("Velocidad del agente: " + agent.velocity.magnitude);
         }
         else
         {
