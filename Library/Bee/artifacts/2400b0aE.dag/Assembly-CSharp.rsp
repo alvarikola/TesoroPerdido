@@ -387,10 +387,16 @@
 "Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs"
 "Assets/Scripts/CollectibleItem.cs"
 "Assets/Scripts/DinosaurAI.cs"
+"Assets/Scripts/DinosaurChaseAI.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Sandwich.cs"
 "Assets/Scripts/ThirdCamera.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryWearLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 -langversion:9.0
 /deterministic
 /optimize+

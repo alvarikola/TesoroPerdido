@@ -65,19 +65,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/WaterfallAudio.cs" />
+    <Compile Include="Assets/Scripts/DinosaurChaseAI.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryLogic.cs" />
     <Compile Include="Assets/Scripts/ThirdCamera.cs" />
     <Compile Include="Assets/Scripts/Sandwich.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/FadeInOut.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs" />
     <Compile Include="Assets/Scripts/CollectibleItem.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BlendShapeTrigger.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryWearLogic.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs" />
     <Compile Include="Assets/Scripts/DinosaurAI.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BoneheadSoundEffects.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Supercyan Character Pack Free Sample/Shaders/Legacy/CelShader.shader" />
+    <None Include="Assets/Supercyan Character Pack Free Sample/Shaders/SupercyanShader.shader" />
+    <None Include="Assets/Supercyan Character Pack Free Sample/Shaders/SupercyanShaderLighting.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

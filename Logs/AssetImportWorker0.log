@@ -10058,3 +10058,977 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
   custom:scripting/precompiled-assembly-types:NavMeshComponents:  -> 93b677dbf0d30263c7f8cc2c81b83a60
   custom:scripting/precompiled-assembly-types:NavMeshComponentsEditor:  -> 0a67efa117f7e78383499f76077a012d
+========================================================================
+Received Prepare
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Caller must complete domain reload
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Native extension for LinuxStandalone target not found
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TesoroPerdido
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (718ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (522ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.2 MB). Loaded Objects now: 6321.
+Memory consumption went from 198.7 MB to 196.6 MB.
+Total: 6.329454 ms (FindLiveObjects: 0.539639 ms CreateObjectMapping: 0.516491 ms MarkObjects: 4.476570 ms  DeleteObjects: 0.794875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: f7b65cc2b41f7aeecf45a1d48fc1ea9e -> 133003a922db579014bce4fcf4c40278
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation: 5d8fa505e3253b9a2a456e2c28a1afb3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 31e73a45c763fbf970b28d7cecf04f55 -> 920c8ae3edcaf7d74284fc32a21472ed
+  custom:scripting/monoscript/fileName/NavigationOverlay.cs: 2744f4e7946ebbb71339c9b1ce538d00 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
+  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: ce581e054faf450c31196535a41f95f6 -> 4bfcc3b0da7a9782753fe3b6e82125de
+  custom:scripting/monoscript/fileName/DemoFree.cs: 7ed0983dbfea1a543959a230939c2b10 -> 
+  custom:scripting/monoscript/fileName/FreeCameraLogic.cs: 6106922ac54c4fb6360dd0655513bb4d -> 
+  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c40a906f9f99ea8a6c5aaa215767017f -> 
+  custom:scripting/monoscript/fileName/CollectibleItem.cs: d4d02722cb85fb29ed9ef5ff05c76f8d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NavigationWindow.cs: 7884404b71178f59d8819c380b951d7c -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 7727a7b6fb8e62a579807e2208fec045 -> 967405f6a06d8f9666eb71e4ea8335fe
+  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: f61437cbb7953fbfeff62301ac8e3fd0 -> c46259e49e129111234cddabf164943d
+  custom:CustomObjectIndexerAttribute: f3847dcb39c2a616e8d79845aaae36f1 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: c0f67b5c8ad87f9ecf3b84c56a11d988 -> 513c185860a601dd098e8f657d06a567
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 321ff910b9943d5fa2d5c027ee7fb546 -> 284fd358892099d0b94b895d4e5b513d
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 1737bd420098b37b6fd9775fe02fa677 -> 2bd168efa6085aee7bdf912b56a6a9b9
+  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 5eb03802e6dba19b3e13aaf384805cac -> 
+  custom:scripting/monoscript/fileName/AccessoryLogic.cs: 0ac4aae92e0cc26c12544af258bdf670 -> 
+  custom:scripting/monoscript/fileName/NavigationPreferences.cs: ada9399a4f085d4c824cc06527e7fcae -> 
+  custom:scripting/monoscript/fileName/SimpleSampleCharacterControl.cs: 8500c82ace415ed1d52b943ac0689d99 -> 
+  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 169704080eda430978bba61ddedeb304 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor.ConversionSystem: 27c718e5de2659aeeb663e092dc21158 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: bd2d1da59395487d086a80c0fb854778 -> da9509a28f329dec7cf87140d1956ea8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor: 2641401efa02975d0393e9f1ca27c91a -> 
+  custom:scripting/monoscript/fileName/HelpUrls.cs: c1a90585e3e9c9d25f58f9141655f24f -> 
+  custom:scripting/monoscript/fileName/EditorStyles.cs: 86b9f4d8fe570a8d8295bfc466c975cf -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Updater: d2095ddf03fd615830d6dacf5841450d -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 796c0615de2e40140a320f29fbc8a514 -> 8a1578246d6f7f9b9d18cac277c25cf8
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: a3a371cce2ef14a5e973820c41ddf8ab -> dca698c9c0bcabdc50ed96b696f5de98
+  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: baf486a1c1cdf03a3111dd113d13c2f4 -> 
+  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: eb4026ea01a117ce0888f693e9eed2cd -> 
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: f9fd8ea12628a7e4e7e3aaae04dcfb92 -> feacb534a560f2a44ee7dd86d4923e5e
+  custom:scripting/monoscript/fileName/AccessoryWearLogic.cs: ace9017f53d2a6b3802bb7ba0ad37432 -> 
+  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: c7f73386e6473f401a8e4151cac4e1e5 -> 
+  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: a45c5db80ce634a6cb9d0945b8b3954d -> d3d3f1d70ac16a8a43542759983f9035
+  custom:scripting/monoscript/fileName/SystemConverter.cs: c748d1769fc66e95256254a1cc1497f3 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Sandwich.cs: 4d28fa1f2f12ce71c284a3b0ab46098e -> 
+  custom:scripting/monoscript/fileName/RunItemContext.cs: bb4ef75ce860de201ddb04b582034b5c -> d35b5dd5e31389598dfa65d33e4ba88d
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c7de8a2c807d17b884ca021ec20fb400 -> 582c6eeec241aae88cfa8b957f6f1dc9
+  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponents:  -> 93b677dbf0d30263c7f8cc2c81b83a60
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsEditor:  -> 0a67efa117f7e78383499f76077a012d
+========================================================================
+Received Import Request.
+  Time since last request: 3344.043513 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs
+  artifactKey: Guid(95a779c7172f3a44c95f30305823626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs using Guid(95a779c7172f3a44c95f30305823626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '598bd599542e947fd4cce917582b3e02') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.222594 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base
+  artifactKey: Guid(0ab18ef640fc1e14abd86fbd0d9eee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base using Guid(0ab18ef640fc1e14abd86fbd0d9eee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98ac618fccd7cd583416ad64071c6740') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.022983 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality
+  artifactKey: Guid(d729f54eafc8cd1469a4611c5fd9619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality using Guid(d729f54eafc8cd1469a4611c5fd9619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0e6c93db8dc5b189ef4ea24213b1f1e') in 0.000770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.800846 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_blue.prefab
+  artifactKey: Guid(59347dc104e238f4dba4250dce655f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_blue.prefab using Guid(59347dc104e238f4dba4250dce655f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aef7049e16c8c8bb40d6f703d862a546') in 0.244038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_pink.prefab
+  artifactKey: Guid(f03b4211459d82f42b6096a2cc345603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_pink.prefab using Guid(f03b4211459d82f42b6096a2cc345603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0658586480ca270804327ff55ad0f3e2') in 0.008840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_gifBox_1_blue.prefab
+  artifactKey: Guid(42ef3d1c843543e4580de79b35da3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_gifBox_1_blue.prefab using Guid(42ef3d1c843543e4580de79b35da3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9a97bd5552fdeef2d32b8c07f0ea979c') in 0.016311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_gifBox_1_pink.prefab
+  artifactKey: Guid(ea2b4b1e34e21a24aa8b4a931a7494c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_gifBox_1_pink.prefab using Guid(ea2b4b1e34e21a24aa8b4a931a7494c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8041cadb51948609e45ee3b492d854e4') in 0.017300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_white.prefab
+  artifactKey: Guid(467281f979dcfbf4aa418f3281fcf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_balloon_1_white.prefab using Guid(467281f979dcfbf4aa418f3281fcf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0742c638fce03548644c452692f0edd3') in 0.013242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.719560 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_orange.prefab
+  artifactKey: Guid(b98b146b2012e5b439051b75891d208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_orange.prefab using Guid(b98b146b2012e5b439051b75891d208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27f68780f2150b4b73c8b69c06c82f44') in 0.006578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.056551 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_pink.prefab
+  artifactKey: Guid(f6ef093ed70ac694399dd743ce4c8d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_pink.prefab using Guid(f6ef093ed70ac694399dd743ce4c8d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de6b8ff6a86f09b3903b599da6fa71a3') in 0.008900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.243212 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_white.prefab
+  artifactKey: Guid(0708db0895b0da84cb3680701848c712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onGround_white.prefab using Guid(0708db0895b0da84cb3680701848c712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcb08a3e69a27ba394cfb83da8da412f') in 0.005973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.056629 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_blue.prefab
+  artifactKey: Guid(71b0ac8fc91d18b4a9942d76a7f72d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_blue.prefab using Guid(71b0ac8fc91d18b4a9942d76a7f72d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34f842652c42a3448ca6091ff1abbc40') in 0.010359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.290921 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_pink.prefab
+  artifactKey: Guid(9d7c6d8087134ca40bf94de20ea2e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_pink.prefab using Guid(9d7c6d8087134ca40bf94de20ea2e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22344eb754491a036e950af43551c97a') in 0.007460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.040716 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_white.prefab
+  artifactKey: Guid(76d3890d4b86378419ed41be709a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_white.prefab using Guid(76d3890d4b86378419ed41be709a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fefcbd2392c8571f9569e2e2396a3c22') in 0.018699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onGround.prefab
+  artifactKey: Guid(fbff0dee921a40840a57635dc3221d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onGround.prefab using Guid(fbff0dee921a40840a57635dc3221d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ba3175a232796d61374519eb38ca152') in 0.024168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.242096 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_male_1.prefab
+  artifactKey: Guid(d674b564acadde849a2cd28ce63525a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_male_1.prefab using Guid(d674b564acadde849a2cd28ce63525a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b35ef969646f26c24ae2e4c51f2e2b52') in 0.010018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 24.342891 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_pink.prefab
+  artifactKey: Guid(9d7c6d8087134ca40bf94de20ea2e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_anniversy_hat_1_onWear_pink.prefab using Guid(9d7c6d8087134ca40bf94de20ea2e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb085a10d25f39c9772ebb5a4104c9d0') in 0.044964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onGround.prefab
+  artifactKey: Guid(fbff0dee921a40840a57635dc3221d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onGround.prefab using Guid(fbff0dee921a40840a57635dc3221d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1a57c0824aa00069137a2bafc1984c7') in 0.008033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onWear.prefab
+  artifactKey: Guid(ac90a857fed2861458e95f26621d6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/FreeSample_backpack_1_onWear.prefab using Guid(ac90a857fed2861458e95f26621d6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73b29413bd6a45cc490dc0c71a1deabf') in 0.007898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Prepare
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Caller must complete domain reload
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Native extension for LinuxStandalone target not found
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TesoroPerdido
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.242 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (779ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.2 MB). Loaded Objects now: 6362.
+Memory consumption went from 199.0 MB to 196.8 MB.
+Total: 7.413685 ms (FindLiveObjects: 1.006901 ms CreateObjectMapping: 0.643595 ms MarkObjects: 4.865689 ms  DeleteObjects: 0.893922 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: f7b65cc2b41f7aeecf45a1d48fc1ea9e -> 133003a922db579014bce4fcf4c40278
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation: 5d8fa505e3253b9a2a456e2c28a1afb3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 31e73a45c763fbf970b28d7cecf04f55 -> 920c8ae3edcaf7d74284fc32a21472ed
+  custom:scripting/monoscript/fileName/NavigationOverlay.cs: 2744f4e7946ebbb71339c9b1ce538d00 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
+  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: ce581e054faf450c31196535a41f95f6 -> 4bfcc3b0da7a9782753fe3b6e82125de
+  custom:scripting/monoscript/fileName/DemoFree.cs: 7ed0983dbfea1a543959a230939c2b10 -> 
+  custom:scripting/monoscript/fileName/FreeCameraLogic.cs: 6106922ac54c4fb6360dd0655513bb4d -> 
+  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c40a906f9f99ea8a6c5aaa215767017f -> 
+  custom:scripting/monoscript/fileName/CollectibleItem.cs: d4d02722cb85fb29ed9ef5ff05c76f8d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NavigationWindow.cs: 7884404b71178f59d8819c380b951d7c -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 7727a7b6fb8e62a579807e2208fec045 -> 967405f6a06d8f9666eb71e4ea8335fe
+  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: f61437cbb7953fbfeff62301ac8e3fd0 -> c46259e49e129111234cddabf164943d
+  custom:CustomObjectIndexerAttribute: f3847dcb39c2a616e8d79845aaae36f1 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: c0f67b5c8ad87f9ecf3b84c56a11d988 -> 513c185860a601dd098e8f657d06a567
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 321ff910b9943d5fa2d5c027ee7fb546 -> 284fd358892099d0b94b895d4e5b513d
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 1737bd420098b37b6fd9775fe02fa677 -> 2bd168efa6085aee7bdf912b56a6a9b9
+  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 5eb03802e6dba19b3e13aaf384805cac -> 
+  custom:scripting/monoscript/fileName/AccessoryLogic.cs: 0ac4aae92e0cc26c12544af258bdf670 -> 
+  custom:scripting/monoscript/fileName/NavigationPreferences.cs: ada9399a4f085d4c824cc06527e7fcae -> 
+  custom:scripting/monoscript/fileName/SimpleSampleCharacterControl.cs: 8500c82ace415ed1d52b943ac0689d99 -> 
+  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 169704080eda430978bba61ddedeb304 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor.ConversionSystem: 27c718e5de2659aeeb663e092dc21158 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: bd2d1da59395487d086a80c0fb854778 -> da9509a28f329dec7cf87140d1956ea8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor: 2641401efa02975d0393e9f1ca27c91a -> 
+  custom:scripting/monoscript/fileName/HelpUrls.cs: c1a90585e3e9c9d25f58f9141655f24f -> 
+  custom:scripting/monoscript/fileName/EditorStyles.cs: 86b9f4d8fe570a8d8295bfc466c975cf -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Updater: d2095ddf03fd615830d6dacf5841450d -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 796c0615de2e40140a320f29fbc8a514 -> 8a1578246d6f7f9b9d18cac277c25cf8
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: a3a371cce2ef14a5e973820c41ddf8ab -> dca698c9c0bcabdc50ed96b696f5de98
+  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: baf486a1c1cdf03a3111dd113d13c2f4 -> 
+  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: eb4026ea01a117ce0888f693e9eed2cd -> 
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: f9fd8ea12628a7e4e7e3aaae04dcfb92 -> feacb534a560f2a44ee7dd86d4923e5e
+  custom:scripting/monoscript/fileName/AccessoryWearLogic.cs: ace9017f53d2a6b3802bb7ba0ad37432 -> 
+  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: c7f73386e6473f401a8e4151cac4e1e5 -> 
+  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: a45c5db80ce634a6cb9d0945b8b3954d -> d3d3f1d70ac16a8a43542759983f9035
+  custom:scripting/monoscript/fileName/SystemConverter.cs: c748d1769fc66e95256254a1cc1497f3 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Sandwich.cs: 4d28fa1f2f12ce71c284a3b0ab46098e -> 
+  custom:scripting/monoscript/fileName/RunItemContext.cs: bb4ef75ce860de201ddb04b582034b5c -> d35b5dd5e31389598dfa65d33e4ba88d
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c7de8a2c807d17b884ca021ec20fb400 -> 582c6eeec241aae88cfa8b957f6f1dc9
+  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponents:  -> 93b677dbf0d30263c7f8cc2c81b83a60
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsEditor:  -> 0a67efa117f7e78383499f76077a012d
+========================================================================
+Received Import Request.
+  Time since last request: 98.048243 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_anniversy_hat_1_onWear_pink.prefab
+  artifactKey: Guid(2450229eac67a2e43836e20c0fd21dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_anniversy_hat_1_onWear_pink.prefab using Guid(2450229eac67a2e43836e20c0fd21dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e981594bc4bef57cd64f9533b72ada0') in 0.620405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_backpack_1_onGround.prefab
+  artifactKey: Guid(d23cb2c48a3459847b84a28eab38b7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_backpack_1_onGround.prefab using Guid(d23cb2c48a3459847b84a28eab38b7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fa4be547de278322441865428042281') in 0.384877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_anniversy_hat_1_onWear_white.prefab
+  artifactKey: Guid(1f0272f6c690ce441b93fd61cda9417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/Mobile/Mobile_FreeSample_anniversy_hat_1_onWear_white.prefab using Guid(1f0272f6c690ce441b93fd61cda9417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ec592e66f425767002fe669f3ac5760') in 0.009565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Prepare
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Caller must complete domain reload
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Native extension for LinuxStandalone target not found
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(IEnumerable`1) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 8c4dd21966739024fbd72155091d199e
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <f53fabdb51f14af3b34676ef032dd183>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7acbf7d088994e2198be2ce6004bb134>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:168 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:176 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TesoroPerdido
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 1667ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (741ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.2 MB). Loaded Objects now: 6403.
+Memory consumption went from 199.1 MB to 196.9 MB.
+Total: 8.417572 ms (FindLiveObjects: 0.670966 ms CreateObjectMapping: 0.609611 ms MarkObjects: 6.049807 ms  DeleteObjects: 1.085083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: f7b65cc2b41f7aeecf45a1d48fc1ea9e -> 133003a922db579014bce4fcf4c40278
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation: 5d8fa505e3253b9a2a456e2c28a1afb3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 31e73a45c763fbf970b28d7cecf04f55 -> 920c8ae3edcaf7d74284fc32a21472ed
+  custom:scripting/monoscript/fileName/NavigationOverlay.cs: 2744f4e7946ebbb71339c9b1ce538d00 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
+  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: ce581e054faf450c31196535a41f95f6 -> 4bfcc3b0da7a9782753fe3b6e82125de
+  custom:scripting/monoscript/fileName/DemoFree.cs: 7ed0983dbfea1a543959a230939c2b10 -> 
+  custom:scripting/monoscript/fileName/FreeCameraLogic.cs: 6106922ac54c4fb6360dd0655513bb4d -> 
+  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c40a906f9f99ea8a6c5aaa215767017f -> 
+  custom:scripting/monoscript/fileName/CollectibleItem.cs: d4d02722cb85fb29ed9ef5ff05c76f8d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NavigationWindow.cs: 7884404b71178f59d8819c380b951d7c -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 7727a7b6fb8e62a579807e2208fec045 -> 967405f6a06d8f9666eb71e4ea8335fe
+  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: f61437cbb7953fbfeff62301ac8e3fd0 -> c46259e49e129111234cddabf164943d
+  custom:CustomObjectIndexerAttribute: f3847dcb39c2a616e8d79845aaae36f1 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: c0f67b5c8ad87f9ecf3b84c56a11d988 -> 513c185860a601dd098e8f657d06a567
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 321ff910b9943d5fa2d5c027ee7fb546 -> 284fd358892099d0b94b895d4e5b513d
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 1737bd420098b37b6fd9775fe02fa677 -> 2bd168efa6085aee7bdf912b56a6a9b9
+  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 5eb03802e6dba19b3e13aaf384805cac -> 
+  custom:scripting/monoscript/fileName/AccessoryLogic.cs: 0ac4aae92e0cc26c12544af258bdf670 -> 
+  custom:scripting/monoscript/fileName/NavigationPreferences.cs: ada9399a4f085d4c824cc06527e7fcae -> 
+  custom:scripting/monoscript/fileName/SimpleSampleCharacterControl.cs: 8500c82ace415ed1d52b943ac0689d99 -> 
+  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 169704080eda430978bba61ddedeb304 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor.ConversionSystem: 27c718e5de2659aeeb663e092dc21158 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: bd2d1da59395487d086a80c0fb854778 -> da9509a28f329dec7cf87140d1956ea8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Editor: 2641401efa02975d0393e9f1ca27c91a -> 
+  custom:scripting/monoscript/fileName/HelpUrls.cs: c1a90585e3e9c9d25f58f9141655f24f -> 
+  custom:scripting/monoscript/fileName/EditorStyles.cs: 86b9f4d8fe570a8d8295bfc466c975cf -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/precompiled-assembly-types:Unity.AI.Navigation.Updater: d2095ddf03fd615830d6dacf5841450d -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 796c0615de2e40140a320f29fbc8a514 -> 8a1578246d6f7f9b9d18cac277c25cf8
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: a3a371cce2ef14a5e973820c41ddf8ab -> dca698c9c0bcabdc50ed96b696f5de98
+  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: baf486a1c1cdf03a3111dd113d13c2f4 -> 
+  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: eb4026ea01a117ce0888f693e9eed2cd -> 
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: f9fd8ea12628a7e4e7e3aaae04dcfb92 -> feacb534a560f2a44ee7dd86d4923e5e
+  custom:scripting/monoscript/fileName/AccessoryWearLogic.cs: ace9017f53d2a6b3802bb7ba0ad37432 -> 
+  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: c7f73386e6473f401a8e4151cac4e1e5 -> 
+  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: a45c5db80ce634a6cb9d0945b8b3954d -> d3d3f1d70ac16a8a43542759983f9035
+  custom:scripting/monoscript/fileName/SystemConverter.cs: c748d1769fc66e95256254a1cc1497f3 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Sandwich.cs: 4d28fa1f2f12ce71c284a3b0ab46098e -> 
+  custom:scripting/monoscript/fileName/RunItemContext.cs: bb4ef75ce860de201ddb04b582034b5c -> d35b5dd5e31389598dfa65d33e4ba88d
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c7de8a2c807d17b884ca021ec20fb400 -> 582c6eeec241aae88cfa8b957f6f1dc9
+  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponents:  -> 93b677dbf0d30263c7f8cc2c81b83a60
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsEditor:  -> 0a67efa117f7e78383499f76077a012d
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
