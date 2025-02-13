@@ -385,8 +385,11 @@
 "Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs"
 "Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs"
 "Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs"
+"Assets/Scripts/CollectibleItem.cs"
 "Assets/Scripts/DinosaurAI.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Sandwich.cs"
 "Assets/Scripts/ThirdCamera.cs"
 -langversion:9.0
 /deterministic

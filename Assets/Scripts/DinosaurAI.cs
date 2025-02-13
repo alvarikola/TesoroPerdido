@@ -62,7 +62,7 @@ public class DinosaurAI : MonoBehaviour
         if (agent.velocity.magnitude > 0.1f)
         {
             animator.SetFloat("speed", 1f);  // Ajusta el valor según la velocidad deseada
-            Debug.Log("Velocidad del agente: " + agent.velocity.magnitude);
+            //Debug.Log("Velocidad del agente: " + agent.velocity.magnitude);
         }
         else
         {

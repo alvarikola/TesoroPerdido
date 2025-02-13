@@ -66,9 +66,12 @@
   <ItemGroup>
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/WaterfallAudio.cs" />
     <Compile Include="Assets/Scripts/ThirdCamera.cs" />
+    <Compile Include="Assets/Scripts/Sandwich.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/Bonehead_BodyEffects.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/FadeInOut.cs" />
+    <Compile Include="Assets/Scripts/CollectibleItem.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Scripts/BlendShapeTrigger.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/BOKI/LowPolyNature/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs" />
     <Compile Include="Assets/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs" />
@@ -901,6 +904,10 @@
       <HintPath>/home/alumno/Unity/Hub/Editor/2022.3.55f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
@@ -935,6 +942,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
